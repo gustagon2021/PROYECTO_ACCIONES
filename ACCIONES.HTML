@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Sans', sans-serif;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px; 
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 6px 8px;
+            border: 1px solid #e0e0e0;
+            background-color: #f5f5f5;
+        }
+        th {
+            background-color: #dfdfe0;
+        }
+        hr {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 900px; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Informe de Acciones</h1>
+    <hr>
+    <h2>Introducción</h2>
+    <hr>
+    <p>Este informe presenta un análisis de diversas acciones del mercado bursátil. Se identifican las acciones cuyo precio actual está por debajo del promedio semanal y se grafican las que muestran mayores bajas.</p>
+    <h2>Metodología</h2>
+    <hr>
+    <p>Se han analizado datos de precios de cierre de las acciones durante la última semana. Los datos fueron obtenidos de Yahoo Finance. Las acciones seleccionadas son aquellas cuyo precio actual es inferior al promedio semanal.</p>
+    <h2>Resultados</h2>
+    <hr>
+    <p>A continuación, se presenta una tabla con las acciones cuyo precio actual está por debajo del promedio semanal, ordenadas por el porcentaje de diferencia</p>
+    <div>
+        <!-- Inicio Tabla de Resultados -->
+<table>
+<thead>
+<tr><th>Símbolo  </th><th style="text-align: right;">  Precio Actual</th><th style="text-align: right;">  Precio Promedio Semanal</th><th style="text-align: right;">  Porcentaje de Diferencia</th></tr>
+</thead>
+<tbody>
+<tr><td>DYCA.BA  </td><td style="text-align: right;">         406   </td><td style="text-align: right;">                   420.9 </td><td style="text-align: right;">                  3.54003 </td></tr>
+<tr><td>POLL.BA  </td><td style="text-align: right;">         459   </td><td style="text-align: right;">                   474.4 </td><td style="text-align: right;">                  3.24621 </td></tr>
+<tr><td>GARO.BA  </td><td style="text-align: right;">         138.75</td><td style="text-align: right;">                   141.9 </td><td style="text-align: right;">                  2.21987 </td></tr>
+<tr><td>DOME.BA  </td><td style="text-align: right;">          78.8 </td><td style="text-align: right;">                    79.28</td><td style="text-align: right;">                  0.605447</td></tr>
+<tr><td>GCDI.BA  </td><td style="text-align: right;">          30.95</td><td style="text-align: right;">                    31.02</td><td style="text-align: right;">                  0.22566 </td></tr>
+</tbody>
+</table>
+<!-- Fin Tabla de Resultados -->
+    </div>
+    <h2>Gráfico de las acciones con Mayor Baja</h2>
+    <hr>
+    <p>El siguiente gráfico muestra el porcentaje de diferencia de las cinco acciones que presentaron la mayor baja en la última semana.</p>
+    <img src="img\grafico_acciones.png"/>
+
+</body>
+</html>
